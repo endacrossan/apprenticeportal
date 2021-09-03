@@ -1,0 +1,53 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplify6f73262d8b924-staging-85947-authRole",
+      "UnauthRoleArn": "arn:aws:iam::826127181108:role/amplify-amplify6f73262d8b924-staging-85947-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::826127181108:role/amplify-amplify6f73262d8b924-staging-85947-authRole",
+      "Region": "eu-west-2",
+      "DeploymentBucketName": "amplify-amplify6f73262d8b924-staging-85947-deployment",
+      "UnauthRoleName": "amplify-amplify6f73262d8b924-staging-85947-unauthRole",
+      "StackName": "amplify-amplify6f73262d8b924-staging-85947",
+      "StackId": "arn:aws:cloudformation:eu-west-2:826127181108:stack/amplify-amplify6f73262d8b924-staging-85947/4a823370-0c95-11ec-81b3-0257eb15c3ba",
+      "AmplifyAppId": "d2pu06oc4zr3cn"
+    }
+  },
+  "auth": {
+    "apprenticeportalae2c26c2": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "loginMechanisms": [
+          "EMAIL"
+        ],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ]
+      },
+      "output": {
+        "UserPoolId": "eu-west-2_eBkNfJ3hp",
+        "AppClientIDWeb": "7s0e1ooih9cmuqnl5aqajlfrla",
+        "AppClientID": "20l77ttkv8rdtv6ip9bfdu7d3k",
+        "IdentityPoolId": "eu-west-2:d0fb9f7e-87fd-4b93-a275-8ede3eb53180",
+        "UserPoolArn": "arn:aws:cognito-idp:eu-west-2:826127181108:userpool/eu-west-2_eBkNfJ3hp",
+        "IdentityPoolName": "apprenticeportalae2c26c2_identitypool_ae2c26c2__staging",
+        "UserPoolName": "apprenticeportalae2c26c2_userpool_ae2c26c2"
+      },
+      "lastPushTimeStamp": "2021-09-03T10:25:30.663Z",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplify6f73262d8b924-staging-85947-deployment/amplify-cfn-templates/auth/apprenticeportalae2c26c2-cloudformation-template.yml",
+        "logicalId": "authapprenticeportalae2c26c2"
+      }
+    }
+  }
+}
